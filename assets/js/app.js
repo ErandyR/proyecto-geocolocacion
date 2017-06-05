@@ -61,7 +61,17 @@ function initMap() {
           map: map
         });
         mostrarLugares(lugares);
-      }
+	      $("#search-form").submit(filtrarLugares);
+}
+
+var filtrarLugares = function (e) {
+	e.preventDefault();
+	var criterioBusqueda = $("#search").val().toLowerCase();
+	var lugaresFiltrados = lugares.filter(function (lugar) {
+		return lugar.nombre.toLowerCase().indexOf(criterioBusqueda) >= 0;
+	});
+	mostrarLugares(lugaresFiltrados);
+};
 
 var mostrarLugares = function (lugares) {
 	var plantillaFinal = "";
