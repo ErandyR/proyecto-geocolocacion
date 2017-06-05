@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>geocolocacion</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <nav class="navbar">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo centrarTexto">TengoHambre!</a>
+          </div>
+        </nav>
+      </header>
+      <div id="map">
+      </div>
+      <div class="barraBusqueda">
+        <nav>
+          <div class="nav-wrapper">
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="lugares">
+        <!-- primer establecimiento -->
+        <div class="col s12 m7">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="http://via.placeholder.com/100x100">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Nombre: Pizza del perro negro</p>
+                <p>Telefono: 5557451234</p>
+                <p>Direccion:</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Mostrar en el Mapa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- segindo establecimiento -->
+        <div class="col s12 m7">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="http://via.placeholder.com/100x100">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Nombre: Forever Vegano</p>
+                <p>Telefono: </p>
+                <p>Direccion:</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Mostrar en el Mapa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tercer establecimiento -->
+        <div class="col s12 m7">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="http://via.placeholder.com/100x100">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Nombre: Sushi Roll</p>
+                <p>Telefono: 5557451234</p>
+                <p>Direccion:</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Mostrar en el Mapa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cuarto establecimiento -->
+        <div class="col s12 m7">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="http://via.placeholder.com/100x100">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Nombre: Papa Guapa</p>
+                <p>Telefono: 5557451234</p>
+                <p>Direccion:</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Mostrar en el Mapa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Quinto establecimiento -->
+        <div class="col s12 m7">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="http://via.placeholder.com/100x100">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Nombre: La casa Gallega</p>
+                <p>Telefono: 5557451234</p>
+                <p>Direccion:</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Mostrar en el Mapa</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq0K6xGqtoRvT6C_rGSyd55aSizltd08c&callback=initMap">
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
