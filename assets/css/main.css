@@ -11,3 +11,18 @@
     max-width: 150px;
     max-height: 150px;
 }
+#barraSocialMedia{
+    width: 70px;
+    height: 210px;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 0;
+}
+.socialMedia{
+    margin: 0;
+    padding: 0;
+}
+.sm1 {
+    padding-top: 10px;
+    box-sizing: border-box;
+}

@@ -95,6 +95,7 @@ function mostrarMapa(coordenadas) {
 	      
 }
 
+
 var filtrarLugares = function (e) {
 	e.preventDefault();
 	var criterioBusqueda = $("#search").val().toLowerCase();
