@@ -39,6 +39,22 @@ var lugares = [
     "lat": 19.417008,
     "lng": -99.154207
   },
+  {
+    "nombre": "El Moro",
+    "telefono": "55 5512 0896",
+    "direccion": "Eje Central Lázaro Cárdenas 42, Centro, 06000 Cuauhtemoc, CDMX",
+    "foto": "assets/img/el_moro.jpg",
+    "lat": 19.4313765,
+    "lng": -99.1411443
+  },
+  {
+    "nombre": "Vegamo MX",
+    "telefono": "55 55103592",
+    "direccion": "Revillagigedo 47, Colonia Centro, Centro, 06070 Ciudad de México, CDMX, México",
+    "foto": "assets/img/veganomx.jpg",
+    "lat": 19.4317738,
+    "lng": -99.1466963
+  }
 ];
 
 var plantillaLugar = '<div class="col s12 m7 lugar">' +
@@ -92,7 +108,7 @@ var mostrarLugares = function (lugares) {
 	var plantillaFinal = "";
 	lugares.forEach(function (lugar) {
 		plantillaFinal += plantillaLugar.replace("__nombre__", lugar.nombre)
-			.replace("__telefono__", lugar.numero)
+			.replace("__telefono__", lugar.telefono)
             .replace("__direccion__", lugar.direccion)
 			.replace("__foto__", lugar.foto)
             .replace("__lng__", lugar.lng)
