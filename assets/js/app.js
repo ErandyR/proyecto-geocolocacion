@@ -59,8 +59,8 @@ var lugares = [
 
 var plantillaLugar = '<div class="col s12 m7 lugar">' +
   '<div class="card horizontal">' +
-    '<div class="card-image" height="150" width="300">' +
-      '<img src="__foto__" height="150" width="300" alt="lugar">' +
+    '<div class="card-image" class="cont_img">' +
+      '<img src="__foto__" class="img_Rest" alt="lugar">' +
     '</div>' +
     '<div class="card-stacked">' +
       '<div class="card-content">' +
@@ -69,7 +69,7 @@ var plantillaLugar = '<div class="col s12 m7 lugar">' +
         '<p>Direccion: __direccion__</p>' +
       '</div>' +
       '<div class="card-action">' +
-        '<a href="" class="cambiarMapa" data-lng="__lng__" data-lat="__lat__">Mostrar en el Mapa</a>' +
+        '<a href="#map" class="cambiarMapa" data-lng="__lng__" data-lat="__lat__">Mostrar en el Mapa</a>' +
       '</div>' +
     '</div>' +
   '</div>' +
