@@ -69,7 +69,7 @@ var plantillaLugar = '<div class="col s12 m7 lugar">' +
         '<p>Direccion: __direccion__</p>' +
       '</div>' +
       '<div class="card-action">' +
-        '<a href="#map" class="cambiarMapa" data-lng="__lng__" data-lat="__lat__">Mostrar en el Mapa</a>' +
+        '<a href="__href__" class="cambiarMapa" data-lng="__lng__" data-lat="__lat__">Mostrar en el Mapa</a>' +
       '</div>' +
     '</div>' +
   '</div>' +
@@ -112,7 +112,8 @@ var mostrarLugares = function (lugares) {
             .replace("__direccion__", lugar.direccion)
 			.replace("__foto__", lugar.foto)
             .replace("__lng__", lugar.lng)
-            .replace("__lat__", lugar.lat);
+            .replace("__lat__", lugar.lat)
+            .replace("__href__", "#map");
 	});
 	$(".lugares").html(plantillaFinal);
     
@@ -124,7 +125,7 @@ function obtenerUbicacionActual() {
      getCurrentPosition(
        mostrarPosicionActual);
    } else {
-     alert("geolocalizacion no soportada en tu navegador");
+     alert("Geolocalización no soportada en tu navegador.");
    }
  }
 
