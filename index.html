@@ -3,42 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>geocolocacion</title>
+    <title>Geocolocación</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
-  <body>
+
+<body>
     <section class="container">
-      <header>
-        <nav class="navbar cyan lighten-1">
-          <div class="nav-wrapper cyan lighten-1">
-            <a href="#" class="brand-logo center-align">TengoHambre!</a>
-          </div>
+        <nav class="navbar amber darken-2">
+            <div class="center-align">
+                <a href="#" class="brand-logo">TengoHambre!</a>
+            </div>
         </nav>
-      </header>
-      <div id="map">
-      </div>
-      <div class="barraBusqueda">
-        <nav class="cyan lighten-2">
-          <div class="nav-wrapper cyan lighten-2">
-            <form id="search-form">
-              <div class="input-field">
-                <input id="search" type="search" placeholder="Nombre del restaurante">
-                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
-              </div>
-            </form>
-          </div>
-        </nav>
-      </div>
-      <div class="lugares"></div>
+        <div id="map">
+        </div>
+        <div class="barraBusqueda">
+            <nav>
+                <div class="nav-wrapper amber darken-2">
+                    <form id="search-form">
+                        <div class="input-field">
+                            <input id="search" type="search" placeholder="Nombre del restaurante">
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="lugares"></div>
     </section>
-    <script 
-     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq0K6xGqtoRvT6C_rGSyd55aSizltd08c">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq0K6xGqtoRvT6C_rGSyd55aSizltd08c">
     </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
-  </body>
+</body>
 </html>

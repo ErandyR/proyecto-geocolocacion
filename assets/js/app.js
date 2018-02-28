@@ -1,9 +1,9 @@
 var lugares = [
   {
-    "nombre": "pizzas del perro negro",
+    "nombre": "Pizza del Perro Negro",
     "telefono": "55 5351 7401",
     "direccion": "Parque España 3, Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "foto": "http://via.placeholder.com/100x100",
+    "foto": "assets/img/pizza_perro_negro.jpg",
     "lat": 19.4164809,
     "lng": -99.1696219
   },
@@ -11,7 +11,7 @@ var lugares = [
     "nombre": "Forever Vegano",
     "telefono": "55 6726 0975",
     "direccion": "Guanajuato 54, Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "foto": "http://via.placeholder.com/100x100",
+    "foto": "assets/img/4ever_vegano.jpg",
     "lat": 19.417372,
     "lng": -99.1568815
   },
@@ -19,7 +19,7 @@ var lugares = [
     "nombre": "Sushi Roll",
     "telefono": "55 9130 8354",
     "direccion": "Calle Campeche 439, Condesa, 06140 Cuauhtémoc, CDMX, México",
-    "foto": "http://via.placeholder.com/100x100",
+    "foto": "assets/img/sushi_roll.jpg",
     "lat": 19.4115907,
     "lng": -99.1774
   },
@@ -27,15 +27,15 @@ var lugares = [
     "nombre": "Papa Guapa",
     "telefono": "55 5207 8052",
     "direccion": "Calle Orizaba 4, Local B, Cuauhtémoc, Roma Norte, Roma Nte., 06700 Ciudad de México, CDMX, México",
-    "foto": "http://via.placeholder.com/100x100",
+    "foto": "assets/img/papa_guapa.png",
     "lat": 19.4238476,
     "lng": -99.1610728
   },
   {
-    "nombre": "La casa gallega",
+    "nombre": "La Casa Gallega",
     "telefono": "55 5588 1553",
     "direccion": "Avenida Cuauhtémoc 166, Roma Nte., 06720 Ciudad de México, CDMX, México",
-    "foto": "http://via.placeholder.com/100x100",
+    "foto": "assets/img/la-casa-gallega.jpg",
     "lat": 19.417008,
     "lng": -99.154207
   },
@@ -43,8 +43,8 @@ var lugares = [
 
 var plantillaLugar = '<div class="col s12 m7 lugar">' +
   '<div class="card horizontal">' +
-    '<div class="card-image">' +
-      '<img src="__foto__" alt="lugar">' +
+    '<div class="card-image" height="150" width="300">' +
+      '<img src="__foto__" height="150" width="300" alt="lugar">' +
     '</div>' +
     '<div class="card-stacked">' +
       '<div class="card-content">' +
